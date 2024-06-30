@@ -25,7 +25,8 @@ public class HowSum {
      * Space complexity = O(m*m) --- O(m^2)  because of the memo, at most we will have a key for each 1 producing target sum and an array of max length m
      */
 
-    public static void main(String[] args) { System.out.println(howSum(7, new int[]{2, 3}));
+    public static void main(String[] args) {
+        System.out.println(howSum(7, new int[]{2, 3}));
         System.out.println(howSum(7, new int[]{5, 3, 4, 7}));
         System.out.println(howSum(7, new int[]{2, 4}));
         System.out.println(howSum(8, new int[]{2, 3, 5}));
