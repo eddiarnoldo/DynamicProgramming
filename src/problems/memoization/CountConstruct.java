@@ -2,6 +2,15 @@ package problems.memoization;
 //Todo add explanation
 
 import java.util.HashMap;
+/**
+ * BruteForce 
+ * O(n^m * m) time
+ * O(m^2) space
+ * 
+ * Memoized
+ * O(n * m ^ 2) time
+ * O(m^2) space
+ */
 
 public class CountConstruct {
     public static void main(String[] args) {
