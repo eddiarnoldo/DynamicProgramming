@@ -3,6 +3,9 @@ package problems.memoization;
 
 import java.util.HashMap;
 /**
+ * m = target.length
+ * n = wordBank.length
+ * 
  * BruteForce 
  * O(n^m * m) time
  * O(m^2) space
